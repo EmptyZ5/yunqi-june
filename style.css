@@ -16,12 +16,11 @@ h2 {
   font-size: 16px;
   margin-top: 8px;
 }
-.tip {
-  background: #fff8dc;
-  padding: 10px;
-  border-left: 4px solid #f5a623;
-  margin-bottom: 12px;
-  font-size: 14px;
+.bg-yellow-100 {
+  background-color: #fff8dc;
+}
+.border-yellow-400 {
+  border-color: #f5a623;
 }
 .card {
   background: #fff;
@@ -29,9 +28,4 @@ h2 {
   padding: 12px;
   margin-bottom: 10px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-}
-.remark {
-  margin-top: 6px;
-  font-size: 13px;
-  color: #666;
 }
