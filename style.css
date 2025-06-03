@@ -1,31 +1,50 @@
 
 body {
-  font-family: sans-serif;
-  background: #f9f9f9;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #fff0f5;
   margin: 0;
-  padding: 10px;
+  padding: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
 }
 h1 {
+  color: #d63384;
   font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 12px;
-  color: #333;
   text-align: center;
+  margin-bottom: 16px;
 }
-h2 {
-  font-size: 16px;
-  margin-top: 8px;
+.tip {
+  background: #ffe3ec;
+  padding: 12px;
+  border-left: 4px solid #d63384;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #800040;
 }
-.bg-yellow-100 {
-  background-color: #fff8dc;
-}
-.border-yellow-400 {
-  border-color: #f5a623;
-}
-.card {
+.day-card {
   background: #fff;
+  border: 1px solid #ffc0cb;
   border-radius: 12px;
   padding: 12px;
-  margin-bottom: 10px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  margin-bottom: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.day-card h2 {
+  margin: 0 0 8px 0;
+  color: #d63384;
+}
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  gap: 6px;
+}
+input[type="text"] {
+  width: 100%;
+  border: 1px solid #ffc0cb;
+  padding: 6px;
+  border-radius: 6px;
 }
